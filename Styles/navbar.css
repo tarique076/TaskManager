@@ -1,0 +1,22 @@
+/* Write necessery css for navbar here  */
+#navbar{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+}
+#navbar>h2{
+    text-align: center;
+}
+#navbar h2:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+#navbar>div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+#heading{
+    color: cornflowerblue;
+}

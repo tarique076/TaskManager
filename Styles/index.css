@@ -1,0 +1,25 @@
+/* Write css related to the Home page here  */
+#create{
+    width: 40%;
+    margin: auto;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 20px;
+}
+#create>h1{
+    text-align: center;
+}
+
+form>input,select{
+    width: 100%;
+    padding: 3%;
+    margin-bottom: 20px;
+}
+input:last-child:hover{
+    transition: .5s;
+    background-color: turquoise;
+}
+#priority option{
+    font-size: 16px;
+    padding: 10px;
+}

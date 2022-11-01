@@ -1,0 +1,17 @@
+/* Write all the code related to the table here  */
+table{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 4px;
+}
+
+thead>tr>th{
+    background-color: rgb(216, 216, 9);
+}
+
+tbody>tr>td{
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
